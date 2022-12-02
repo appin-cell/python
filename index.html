@@ -10,10 +10,12 @@
     <py-script>
         import requests
         import time
-        
-        url=https://nieru.net/eiko
-        while true:
-            requests.get("url")
+        url = "https://nieru.net/echannel"
+        i=0
+        while True:
+            requests.get(url)
+            i=i+1
+            print('i')
             time.sleep(0.1)
     </py-script>
 </body>
